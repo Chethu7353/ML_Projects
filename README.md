@@ -1,53 +1,57 @@
-# ML Projects
+# Salary Prediction using Linear Regression
 
-This repository contains my **Machine Learning practice and projects** while learning ML from scratch using Python.
+This project implements Linear Regression to predict salary based on Years of Experience using Python.
 
-## 📚 About
+## Technologies Used
+Python  
+NumPy  
+Pandas  
+Matplotlib  
+Scikit-learn  
 
-The goal of this repository is to implement Machine Learning algorithms step by step and understand how they work through practical coding examples.
+## Project Version 1 – Basic Linear Regression
 
-## 🛠 Technologies Used
+In the first version of this project:
 
-* Python
-* NumPy
-* Pandas
-* Matplotlib
-* Scikit-learn
+• Loaded dataset using Pandas  
+• Split the dataset into training and testing data  
+• Trained a Linear Regression model  
+• Predicted salary using the trained model  
+• Visualized the regression line and data points using Matplotlib  
 
-## 📂 Projects Included
+## Project Version 2 – Model Evaluation Added
 
-### 1️⃣ Linear Regression – Salary Prediction
+In the improved version, I added model evaluation metrics to measure the performance of the model.
 
-A simple Linear Regression model that predicts **salary based on years of experience**.
+Metrics used:
 
-Steps followed:
+• Mean Absolute Error (MAE)  
+• Mean Squared Error (MSE)  
+• Root Mean Squared Error (RMSE)  
+• R² Score  
 
-* Import required libraries
-* Load dataset using Pandas
-* Split dataset into training and testing data
-* Train Linear Regression model
-* Predict salary for given experience
+These metrics help understand how accurately the model predicts salary values.
 
-## ▶️ How to Run
+## Project Structure
 
-1. Clone the repository
+ML_Projects  
+│  
+├── Salary_prediction.py  
+├── Salary_prediction_with_metrics.py  
+├── Salary_dataset.csv  
+└── README.md  
 
-```
-git clone https://github.com/Chethu7353/ML_Projects.git
-```
+## What I Learned
 
-2. Install required libraries
+• Basics of Linear Regression  
+• Data preprocessing using Pandas  
+• Training and testing Machine Learning models  
+• Data visualization using Matplotlib  
+• Evaluating model performance using metrics  
 
-```
-pip install numpy pandas matplotlib scikit-learn
-```
+## Author
 
-3. Run the Python file or Jupyter Notebook.
+Chetan Kumar  
 
-## 🎯 Purpose
-
-This repository is part of my **Machine Learning learning journey**, where I implement ML algorithms sequentially to build strong fundamentals.
-
----
-
-⭐ Learning Machine Learning step by step.
+GitHub:  
+https://github.com/Chethu7353
