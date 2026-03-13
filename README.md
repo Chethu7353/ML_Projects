@@ -1,57 +1,124 @@
-# Salary Prediction using Linear Regression
+# Machine Learning Regression Projects
 
-This project implements Linear Regression to predict salary based on Years of Experience using Python.
+This repository contains beginner Machine Learning projects focused on **Linear Regression techniques** implemented using Python.
 
-## Technologies Used
-Python  
-NumPy  
-Pandas  
-Matplotlib  
-Scikit-learn  
+The projects demonstrate how regression models can be used to understand relationships between variables and make predictions using real datasets.
 
-## Project Version 1 – Basic Linear Regression
+---
 
-In the first version of this project:
+# Project 1 – Salary Prediction using Simple Linear Regression
 
-• Loaded dataset using Pandas  
-• Split the dataset into training and testing data  
-• Trained a Linear Regression model  
-• Predicted salary using the trained model  
-• Visualized the regression line and data points using Matplotlib  
+This project predicts **salary based on years of experience** using Simple Linear Regression.
 
-## Project Version 2 – Model Evaluation Added
+### Steps Performed
 
-In the improved version, I added model evaluation metrics to measure the performance of the model.
+• Loaded dataset using Pandas
+• Explored dataset structure
+• Split data into training and testing sets
+• Trained a Linear Regression model
+• Predicted salary values
+• Visualized the regression line using Matplotlib
 
-Metrics used:
+### Dataset
 
-• Mean Absolute Error (MAE)  
-• Mean Squared Error (MSE)  
-• Root Mean Squared Error (RMSE)  
-• R² Score  
+Salary Dataset containing:
 
-These metrics help understand how accurately the model predicts salary values.
+* YearsExperience
+* Salary
 
-## Project Structure
+---
 
-ML_Projects  
-│  
-├── Salary_prediction.py  
-├── Salary_prediction_with_metrics.py  
-├── Salary_dataset.csv  
-└── README.md  
+# Project 2 – Salary Prediction with Model Evaluation Metrics
 
-## What I Learned
+This version improves the first project by adding **model performance evaluation metrics**.
 
-• Basics of Linear Regression  
-• Data preprocessing using Pandas  
-• Training and testing Machine Learning models  
-• Data visualization using Matplotlib  
-• Evaluating model performance using metrics  
+### Evaluation Metrics Used
 
-## Author
+• Mean Absolute Error (MAE)
+• Mean Squared Error (MSE)
+• Root Mean Squared Error (RMSE)
+• R² Score
 
-Chetan Kumar  
+These metrics help measure how accurately the model predicts salary values.
 
-GitHub:  
+---
+
+# Project 3 – Startup Profit Prediction using Multiple Linear Regression
+
+This project applies **Multiple Linear Regression** to predict startup profit based on multiple features.
+
+### Dataset
+
+50_Startups Dataset containing:
+
+* R&D Spend
+* Administration
+* Marketing Spend
+* State
+* Profit
+
+### Features Used in the Model
+
+• R&D Spend
+• Marketing Spend
+
+### Steps Performed
+
+• Data preprocessing
+• Handling duplicates and dataset inspection
+• Train-test split
+• Multiple Linear Regression model training
+• Model evaluation using regression metrics
+• Visualization of regression results using an interactive **3D regression plane**
+
+### Visualization
+
+The project includes a **3D scatter plot with a regression plane** to show the relationship between:
+
+* R&D Spend
+* Marketing Spend
+* Profit
+
+---
+
+# Technologies Used
+
+Python
+NumPy
+Pandas
+Matplotlib
+Plotly
+Scikit-learn
+
+---
+
+# Project Structure
+
+ML_Projects
+│
+├── Salary_prediction.py
+├── Salary_prediction_with_metrics.py
+├── Multiple_linear_regression_startup_profit.py
+├── Salary_dataset.csv
+├── 50_Startups.csv
+└── README.md
+
+---
+
+# What I Learned
+
+• Understanding Simple Linear Regression
+• Implementing Multiple Linear Regression
+• Data preprocessing using Pandas
+• Splitting datasets into training and testing sets
+• Evaluating models using regression metrics
+• Visualizing regression models and predictions
+
+---
+
+# Author
+
+Chetan Kumar
+
+GitHub
 https://github.com/Chethu7353
