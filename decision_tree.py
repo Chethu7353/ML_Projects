@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, confusion_matrix
 import plotly.express as px
 
-data = pd.read_csv("/content/cancer_classification.csv")
+data = pd.read_csv("cancer_classification.csv")
 
 X = data.drop('benign_0__mal_1', axis=1)
 y = data['benign_0__mal_1']
